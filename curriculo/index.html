@@ -1,103 +1,122 @@
 <!DOCTYPE html>
 <html>
+
+<head>
     <title>Curriculum Vitae</title>
-    
-    <head>
-
-        <style>
-           img#imagem-pequena {
-            width: 100px;
-            position: center; 
-            top: 10px; 
-            left: 10px;
-        }
-            </style>
-
-            <style>
-                    .botao {
-                    display: inline-block;
-                    padding: 10px 20px;
-                    background-color: #007bff; 
-                    color: #fff;
-                    text-decoration: none;
-                    border: none;
-                    border-radius: 5px;
-                    cursor: pointer;
-                }
-        
-                    .botao:hover {
-                    background-color: #0056b3;
-                }
-            </style>                     
-</head>
-
-<body> 
 
     <style>
+        img#imagem-pequena {
+            width: 100px;
+            position: center;
+            top: 10px;
+            left: 10px;
+        }
+
+        .botao {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .botao:hover {
+            background-color: #0056b3;
+        }
+
         body {
             background-image: url('../img/v915-mynt-002-b.jpg');
-            background-size: cover; 
+            background-size: cover;
             background-repeat: no-repeat;
         }
+
+        #menu {
+            text-align: center;
+            background-color: #007bff;
+            padding: 10px 0;
+        }
+
+        #menu a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: bold;
+        }
     </style>
+</head>
 
-    <p><a href="#meuFooter" class="botao">Ir para o rodapé</a></p>
-    
+<body>
+
     <header>
-        <h1>Meu Curriculo</h1>
-                          </header>
+        <h1>Meu Currículo</h1>
+    </header>
 
-     
+    <div id="menu">
+
+        <a href="#dadosPessoais">Dados Pessoais</a>
+        <a href="#competencias">Competências</a>
+        <a href="#cursos">Cursos</a>
+        <a href="#contato">Contato</a>
+        <a href="#meuFooter" class="botao">Ir para o rodapé</a>
+    </div>
+
     <img id='imagem-pequena' src="../img/1692242103227.jpeg" alt="Foto perfil">
-        <br>
-        <br>
-        <br>
-            <main>
+    <br>
+    <br>
+    <br>
+    <main>
+        <section id="dadosPessoais">
             <h1>Rodrigo Rocha da Silva</h1>
             <p>Endereço: Rua Beira Linha, 448 A</p>
             <p>Bairro: Cascata Guarani</p>
             <p>Cep: 25961-020</p>
+            <br>
+            <br>
+        </section>
+        <section id="competencias">
+            <h2>Competências</h2>
+            <ul>
+                <li>Montagem e Manutenção</li>
+                <li>Design gráfico</li>
+                <li>Digitação</li>
+            </ul>
+            <br>
+            <br>
+        </section>
+        <section id="cursos">
+            <h3>Cursos</h3>
+            <br>
+            <a href="https://www.java.com/pt-BR/"><img src="../img/JAVA.webp" alt="JAVA" height="100" width="100"></a>
+            <a href="https://react.dev/"><img src="../img/react.png" alt="React" height="100" width="100"></a>
+            <a href="https://www.javascript.com/"><img src="../img/JS.webp" alt="JavaScript" height="100"
+                    width="100"></a>
+            <br>
+            <br>
+            <br>
+            <br>
+        </section>
+        <section id="contato">
+            <h4>Contato</h4>
+            <p>E-mail: serratec@senai.com.br</p>
+            <p>Celular: (21) 2334-3434</p>
+            <a href="https://www.linkedin.com/in/rodrigo-rocha-2204451ba">Linkedin</a>
+        </section>
+    </main>
+
+    <section id="meuFooter">
         <br>
         <br>
-                <h2>Competências</h2>
-                    <ul>
-                    <li> Montagem e Manutenção </li>
-                    <li> Design gráfico </li>
-                    <li> Digitação </li>
-                  </ul>
-                  
-                  <br>
-                  <br>
+        <br>
+        <br>
+        <br>
+        <p>Obrigado!</p>
+        <img id='imagem-pequena' src="../img/327404788_498294265786246_6714053996855612113_n.png" alt="Foto perfil">
+        <p>Since 2023 Serratec</p>
+    </section>
 
-    <h3>Cursos</h3> 
-      <br>
-            
-    <a href="https://www.java.com/pt-BR/"><img src="../img/JAVA.webp" alt="JAVA" height="100" width="100"></a>
-    <a href="https://react.dev/"><img src="../img/react.png" alt="React" height="100" width="100"></a>
-    <a href="https://www.javascript.com/"><img src="../img/JS.webp" alt="JavaScript" height="100" width="100"></a>
-
-       <br>
-       <br>
-       <br>
-       <br>
-               <h4>Contato</h4>
-                <p>E-mail: serratec@senai.com.br</p>
-                <p>Celular: (21) 2334-3434 </p>
-                <a href="https://www.linkedin.com/in/rodrigo-rocha-2204451ba">Linkedin</a>               
-            </main>
-
-            <footer id="meuFooter">
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-   
-                <p>Obrigado!</p>
-
-      <img id='imagem-pequena' src="../img/327404788_498294265786246_6714053996855612113_n.png" alt="Foto perfil">
-            <p> Since 2023 Serratec </p>
-            </footer>       
-             
 </body>
+
 </html>
